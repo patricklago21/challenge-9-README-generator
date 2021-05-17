@@ -4,8 +4,7 @@ const licenseBadgeLinks = require('./licenseLinks');
 function generateMarkdown(reply) {
   reply.licenseBadge = licenseBadgeLinks[reply.license];
 
-  return `${reply.licenseBadge}
-  # ${reply.title}
+  return `# ${reply.title}
   ${reply.description}
 
   ## Table of Contents
@@ -25,6 +24,8 @@ function generateMarkdown(reply) {
 
   ## Testing
   ${reply.test}
+
+  ${reply.licenseBadge}
 
   ## Questions?
   ### Please feel free to reach out to me here:
