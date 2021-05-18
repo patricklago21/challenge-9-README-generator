@@ -1,6 +1,5 @@
 # Challenge 9: Professional README Generator 
 
-Deployed Application: https://patricklago21.github.io/challenge-9-README-generator/
 Walkthrough Video: https://share.vidyard.com/watch/yUqWFvY1ZQAokBM8Ry3fjx?
 
 ## Description
